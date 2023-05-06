@@ -1,0 +1,12 @@
+User Service - M1
+
+Department Service - M2
+
+Cloud Gateway - Single API From Where All Microservices Called
+
+User Registry(Eureka Server) - Maintain All Microservices of M1 or M2 or More Than That
+
+Hystrix - For Cathing Any Fault Tolerance like one Microservice Failed.
+
+cloud config server - It is for configuration github to microservices
+
