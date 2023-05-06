@@ -8,15 +8,5 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/Karan-Dodeja/SB-M1-configuration-server
           clone-on-start: true
-   
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
-  instance:
-    hostname: localhost
-    
